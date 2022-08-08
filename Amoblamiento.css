@@ -1,13 +1,13 @@
 
 
-body
+.Body-class
 {
     font-size: 65.5%;
      
 
 }
 
-h1
+.Encabezado
 {
     font: normal 2.0em verdana,geneva,sans-serif;
     background:  -webkit-linear-gradient(top, #00F,#0cf);
@@ -23,14 +23,14 @@ h1
 
 }
 
-nav
+.Barra-Nav
 {
     background-color: red;
     margin: 15px auto  ;
     width: 91%;
 
 }
-li
+.Menu
 {
     background-color: blue;
     display: inline;
@@ -40,7 +40,7 @@ li
     
 }
 
-section
+.Seccion
 {
     width: 91%;
     margin: 15px auto;
@@ -48,7 +48,7 @@ section
    
 
 }
-figure 
+.figuras 
 {
      
     float: left ;
@@ -56,7 +56,7 @@ figure
     margin-left:0px ;
     margin-right: 51px;
 }
-figure img 
+.figuras img 
 {
     padding: 4px;
     background: #999;
@@ -65,13 +65,13 @@ figure img
     margin-right: 5px;
 
 }
-figure img:hover {
+.figuras img:hover {
     
     transform: scale(1.6);
     transition: transform 0.3s ease-in-out 0.1s ;/*funciona en los dos lados*/
 
 }
-figcaption
+.figuras figcaption
 {
     font-family: Arial,helvetica,sans-serif;
     font-size: 1.3em;
@@ -79,19 +79,20 @@ figcaption
     margin-top: 5px;
 
 }
-footer
+.Pie-de-pagina
 {
     clear: both;
-    padding-top: 100px;
+    padding-top: 10px;
     background-color: blue;
    
 
 }
-footer p
+.Pie-de-pagina p
 {
     
     font: 1.2em georgia;
     color: #666;
     margin: 10px 8px;
+
 
 }
