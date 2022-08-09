@@ -3,7 +3,8 @@
 .Body-class
 {
     font-size: 65.5%;
-     
+    background: radial-gradient(circle,#fff,#bbb);
+
 
 }
 
